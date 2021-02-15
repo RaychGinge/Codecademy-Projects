@@ -17,7 +17,6 @@ const getComputerChoice = () => {
    return 'scissors';
    case 2:
    return 'paper';
-   break;
  };
 }
 
@@ -53,8 +52,8 @@ function determineWinner(userChoice, computerChoice) {
 }
 
 const playGame = () => {
-    const userChoice = getUserChoice('bomb');
-    const computerChoice = getComputerChoice();
+    let userChoice = getUserChoice('bomb');
+    let computerChoice = getComputerChoice();
     console.log('You chose: ' + userChoice);
     console.log('The computer chose: ' + computerChoice);
     console.log(determineWinner(userChoice, computerChoice));
