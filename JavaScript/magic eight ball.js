@@ -1,6 +1,6 @@
-let userName = 'James';
+let userName = process.argv[2];
 
-let userQuestion = 'Should I eat the rest of my food?';
+let userQuestion = process.argv[3];
 
 let randomNumber = Math.floor(Math.random() * 8);
 
@@ -51,7 +51,7 @@ switch (randomNumber) {
     break;
 
     case 4:
-        eightBall = "Don't count on it.";
+        eightBall = "Not a fucking chance!";
     break;
 
     case 5:
