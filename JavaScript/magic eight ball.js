@@ -35,7 +35,7 @@ console.log(`${userName}, you asked: ${userQuestion}`);
 //switch statement version:
 switch (randomNumber) {
     case 0:
-        eightBall = 'It is certain.';
+        eightBall = 'Absofuckinglutely.';
     break;
 
     case 1: 
@@ -55,7 +55,7 @@ switch (randomNumber) {
     break;
 
     case 5:
-        eightBall = 'My sources say no.';
+        eightBall = 'Bitch please!';
     break;
 
     case 6:
